@@ -1,0 +1,31 @@
+{
+	"name": "voonne/domains",
+	"type": "library",
+	"description": "Voonne domains management",
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"authors": [
+		{
+			"name": "Jan Lavička",
+			"email": "mail@janlavicka.name",
+			"homepage": "https://www.janlavicka.name"
+		}
+	],
+	"support": {
+		"email": "mail@janlavicka.name",
+		"issues": "https://github.com/voonne/domains/issues"
+	},
+	"require": {
+		"php": "^5.6 || ^7.0"
+	},
+	"require-dev": {
+		"codeception/codeception": "^2.1",
+		"mockery/mockery": "^0.9",
+		"nette/caching": "^2.5",
+		"nette/robot-loader": "^2.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Voonne\\Domains\\": "src/"
+		}
+	}
+}
