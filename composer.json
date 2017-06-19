@@ -15,7 +15,9 @@
 		"issues": "https://github.com/voonne/domains/issues"
 	},
 	"require": {
-		"php": "^5.6 || ^7.0"
+		"php": "^5.6 || ^7.0",
+		"voonne/model": "@dev",
+		"voonne/voonne": "@dev"
 	},
 	"require-dev": {
 		"codeception/codeception": "^2.1",
